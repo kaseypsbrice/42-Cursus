@@ -5,10 +5,10 @@ Projects from the 42 Cursus to date. Studies commenced **21 February 2022**.
 
 | Project         | CCR | Summary                                              | Status            |
 |-----------------|:---:|------------------------------------------------------|-------------------|
-| Libft | 0          | This project is about coding a C library. It will contain a lot of general purpose functions your programs will rely upon. | Complete |
-| Born2beroot | 1 | This document is a System Administration related exercise. | WIP |
-| ft_printf | 1 | The goal of this project is pretty straightforward. You will recode printf(). You will mainly learn about using a variable number of arguments. | WIP |
-| get_next_line | 1 | This project is about programming a function that returns a line read from a file descriptor. | ----- |
+| [Libft](https://github.com/kaseypsbrice/42-Cursus/tree/main/Libft) | 0          | This project is about coding a C library. It will contain a lot of general purpose functions your programs will rely upon. | Complete |
+| [Born2beroot](https://github.com/kaseypsbrice/42-Cursus/tree/main/Born2beroot) | 1 | This document is a System Administration related exercise. | WIP |
+| ft_printf | 1 | The goal of this project is pretty straightforward. You will recode printf(). You will mainly learn about using a variable number of arguments. | ---- |
+| [get_next_line](https://github.com/kaseypsbrice/42-Cursus/tree/main/get_next_line) | 1 | This project is about programming a function that returns a line read from a file descriptor. | WIP |
 
 <details><summary><b>Skills</b></summary>
   
