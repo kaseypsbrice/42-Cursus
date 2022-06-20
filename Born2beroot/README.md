@@ -30,8 +30,9 @@ saved)...
 ...Then, retrieve the signature from the ".vdi" file (or ".qcow2 for UTM’users) of your
 virtual machine in sha1 format.
 
-Evaluation Marking Criteria: [Available Here](https://github.com/pasqualerossi/42-Evaluations/tree/main/Born2BeRoot)
- 
+Evaluation Marking Criteria: [Born2beroot Evaluation Sheet.pdf](https://github.com/kaseypsbrice/42-Cursus/files/8944012/Born2beroot.Evaluation.Sheet.pdf)
+
 ## Results 
 
-**-- Unavailable | Project Incomplete --**
+![Born2beroot Results](https://user-images.githubusercontent.com/97709643/174685738-a66e2345-c37a-4d6b-b737-0f4aefa8be26.png)
+<p align="right"><i>kbrice June 2022</i></p>
