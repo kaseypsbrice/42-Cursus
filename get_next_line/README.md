@@ -50,4 +50,4 @@ Evaluation Marking Criteria: [Available Here](https://github.com/pasqualerossi/4
  
 ## Results 
 
-**-- Unavailable | Project Incomplete --**
+![get_next_line results](https://user-images.githubusercontent.com/97709643/179920178-7f70401b-dc71-45ae-a343-18f928bd011a.png)
