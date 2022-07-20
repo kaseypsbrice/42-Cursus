@@ -38,6 +38,14 @@ values. <br>2) A file descriptor does not only point to regular files.
 Be smart and cross-check with your peers. Prepare a full set of
 diverse tests for defense.
 
+Recommended testers:<br>
+<ul>
+  <li><a href="https://github.com/Tripouille/gnlTester">gnlTester - Tripouille</a></li>
+  <li><a href="https://github.com/Abaker-Hype/42-Cursus-Tester">42-Cursus-Tester - Abaker-Hype</a></li>
+  <li><a href="https://github.com/xicodomingues/francinette">francinette - xicodomingues</a></li>
+  </ul>
+  <br>
+
 Evaluation Marking Criteria: [Available Here](https://github.com/pasqualerossi/42-Evaluations/tree/main/Get_Next_Line)
  
 ## Results 
