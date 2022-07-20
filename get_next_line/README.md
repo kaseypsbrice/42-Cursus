@@ -21,14 +21,6 @@
     
 ### Resources
 
-  <details><summary>GitHub Repositories</summary>
-    <ul>
-      <li><a href="https://github.com/epsakzm/get_next_line">get_next_line - epsakzm</a><br></li>
-      <li><a href="https://github.com/abello-r/Get_next_line">Get_next_line - abello-r</a> // [ESP]</li>
-      <li><a href="https://github.com/jraleman/42_get_next_line">get_next_line - jraleman</a> // [ENG]</li>
-      <li><a href="https://github.com/hidaehyunlee/Get-Next-Line">Get_Next_Line - hidahyunlee</a> </li>
-    </ul>
-  </details>
   <details><summary>Informative Links</summary>
     <ul>
       <li><a href="https://stackoverflow.com/questions/79923/what-and-where-are-the-stack-and-heap/1213360#1213360">Stacks & Heaps: Memory Allocation - Stackoverflow</a></li>
