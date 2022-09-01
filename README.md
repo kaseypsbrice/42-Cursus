@@ -10,7 +10,7 @@ Projects from the 42 Cursus to date. Studies commenced **21 February 2022**.
 | [ft_printf ](https://github.com/kaseypsbrice/42-Cursus/tree/main/ft_printf)| 1 | The goal of this project is pretty straightforward. You will recode printf(). You will mainly learn about using a variable number of arguments. | Complete |
 | [get_next_line](https://github.com/kaseypsbrice/42-Cursus/tree/main/get_next_line) | 1 | This project is about programming a function that returns a line read from a file descriptor. | Complete |
 | [so_long](https://github.com/kaseypsbrice/42-Cursus/tree/main/so_long) | 2 | This project is a very small 2D game. Its purpose is to make you work with textures, sprites, and some other very basic gameplay elements. | WIP |
-| [minitalk](https://github.com/kaseypsbrice/42-Cursus/tree/main/minitalk) | 2 | The purpose of this project is to code a small data exchange program using UNIX signals. It is an introductory project for the bigger UNIX projects that will appear later on in the cursus.  | WIP |
+| [minitalk](https://github.com/kaseypsbrice/42-Cursus/tree/main/minitalk) | 2 | The purpose of this project is to code a small data exchange program using UNIX signals. | WIP |
 
 <details><summary><b>Skills</b></summary>
   
