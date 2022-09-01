@@ -3,13 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mbishop- <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: kbrice <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/03/07 13:11:28 by mbishop-          #+#    #+#             */
-/*   Updated: 2022/09/01 10:14:31 by kbrice           ###   ########.fr       */
+/*   Created: 2022/09/01 10:31:51 by kbrice            #+#    #+#             */
+/*   Updated: 2022/09/01 10:31:55 by kbrice           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #ifndef FT_PRINTF_H
 # define FT_PRINTF_H
 # include <unistd.h>
