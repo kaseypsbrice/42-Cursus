@@ -20,6 +20,7 @@ Projects from the 42 Cursus to date. Studies commenced **21 February 2022**.
 * Algorithms & AI 
 * Network & system administration 
 * Imperative programming 
+* Battery concept and handling elements
 * Graphics 
 
 </details>
