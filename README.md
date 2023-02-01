@@ -12,6 +12,7 @@ Projects from the 42 Cursus to date. Studies commenced **21 February 2022**.
 | [minitalk](https://github.com/kaseypsbrice/42-Cursus/tree/main/minitalk) | 2 | The purpose of this project is to code a small data exchange program using UNIX signals. | Complete |
 | [push_swap](https://github.com/kaseypsbrice/42-Cursus/tree/main/push_swap) | 2 | This project will make you sort data on a stack, with a limited set of instructions, using the lowest possible number of actions. To succeed you’ll have to manipulate various types of algorithms and choose the most appropriate solution (out of many) for an optimised data sorting. | Complete |
 | [FdF](https://github.com/kaseypsbrice/42-Cursus/tree/main/fdf) | 2 | This project is about representing a landscape as a 3D object in which all surfaces are outlined in lines. | Complete |
+| [Philosophers](https://github.com/kaseypsbrice/42-Cursus/tree/main/Philosophers) | 3 | n this project, you will learn the basics of threading a process. You will see how to create threads and you will discover mutexes. | WIP |
 
 <details><summary><b>Skills</b></summary>
   
