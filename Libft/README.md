@@ -1,4 +1,7 @@
 # Libft
+
+<img src="https://img.shields.io/badge/Cursus-Libft-lightgrey?style=for-the-badge&logo=42" width="15%"></img> <img src="https://badge42.vercel.app/api/v2/cl3kqxp4p001109mmgul4jrzv/project/2508800" width="15%"></img> 
+
 ### Description
   This project is your very first project as a student at 42. 
   You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus.
@@ -68,9 +71,8 @@
   
   </details>
   
-   </details>
-  
-  <details><summary>Bonuses</summary>
+  :exclamation: <tt>Bonuses were not submitted.</tt>
+    <details><summary>Bonuses</summary>
 
   - [ ] ft_lstnew 
   - [ ] ft_lstadd_front 
@@ -83,8 +85,3 @@
   - [ ] ft_lstmap 
   
   </details>
- 
- ## Results 
- 
-![Libft Results kbrice](https://user-images.githubusercontent.com/97709643/164137954-e00dd4a0-43f3-4c8b-8cef-64757b09f616.png)
-<p align="right"><i>kbrice April 2022</i></p>
