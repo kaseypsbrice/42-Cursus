@@ -28,14 +28,15 @@
 
   <details><summary>Informative Links</summary>
     <ul>
-      <li><a href="">
-        -- Currently Unavailable --</a></li>
+      <li><a href="https://medium.com/nerd-for-tech/push-swap-tutorial-fa746e6aba1e">
+        Push Swap Tutorial - Leo Fu</a></li>
+      <li><a href="https://www.youtube.com/watch?v=XiuSW_mEn7g">
+        Radix Sort Algorithm Introduction in 5 Minutes - CS Dojo</a></li>
+      <li><a href="https://people.eecs.berkeley.edu/~jrs/61b/ta/Georgedisc13.pdf">Bits and Radix Sort - Berkeley EECS</a></li>
+      <li><a href="https://www.programiz.com/dsa/deque">Deque Data Structure - Programiz</a></li>
+      <li><a href="https://www.programiz.com/dsa/linked-list">Linked List Data Structure - Programiz</a></li>
     </ul>
   </details>
-  
-## Evaluations
-
-Evaluation Marking Criteria: /* Unavailable - The evaluation sheets on other projects are also now unavailable because the resource was taken down. */
 
 ## Results 
 
