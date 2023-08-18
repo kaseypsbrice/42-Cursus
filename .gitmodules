@@ -1,0 +1,3 @@
+[submodule "Minishell"]
+	path = Minishell
+	url = https://github.com/kaseypsbrice/Minishell
