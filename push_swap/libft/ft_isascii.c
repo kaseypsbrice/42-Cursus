@@ -3,14 +3,20 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isascii.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cturner <cturner@42adel.org.au>            +#+  +:+       +#+        */
+/*   By: kbrice <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/11/13 06:43:47 by cturner           #+#    #+#             */
-/*   Updated: 2021/11/13 06:44:01 by cturner          ###   ########.fr       */
+/*   Created: 2022/03/01 12:12:22 by kbrice            #+#    #+#             */
+/*   Updated: 2022/03/04 10:17:39 by kbrice           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+#include "libft.h"
 
 int	ft_isascii(int c)
+
 {
-	return (c >= 0 && c <= 127);
+	if (c >= 0 && c <= 127)
+	{
+		return (1);
+	}
+	return (0);
 }

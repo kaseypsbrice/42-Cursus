@@ -3,22 +3,31 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cturner <cturner@42adel.org.au>            +#+  +:+       +#+        */
+/*   By: kbrice <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/11/15 18:01:30 by cturner           #+#    #+#             */
-/*   Updated: 2021/11/15 18:06:34 by cturner          ###   ########.fr       */
+/*   Created: 2022/03/01 08:56:36 by kbrice            #+#    #+#             */
+/*   Updated: 2022/03/22 08:59:25 by kbrice           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include "libft.h"
 
 void	*ft_memchr(const void *s, int c, size_t n)
+
 {
-	while (n--)
+	unsigned char	*str;
+	unsigned char	ch;
+	size_t			i;
+
+	str = (unsigned char *)s;
+	ch = (unsigned char)c;
+	i = 0;
+	while (i < n)
 	{
-		if (*(unsigned char *)s == (unsigned char)c)
-			return ((void *)s);
-		s++;
+		if (str[i] == ch)
+		{
+			return ((void *)(str + i));
+		}
+		i++;
 	}
-	return (0);
+	return (NULL);
 }

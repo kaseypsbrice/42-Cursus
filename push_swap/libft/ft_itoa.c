@@ -3,18 +3,26 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cturner <cturner@42adel.org.au>            +#+  +:+       +#+        */
+/*   By: kbrice <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/11/13 06:45:22 by cturner           #+#    #+#             */
-/*   Updated: 2021/11/13 06:45:50 by cturner          ###   ########.fr       */
+/*   Created: 2022/03/11 14:27:09 by kbrice            #+#    #+#             */
+/*   Updated: 2022/03/11 14:51:34 by kbrice           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include "libft.h"
 
-size_t	get_len(int n)
+static int	ft_abs(int n)
+
 {
-	size_t	len;
+	if (n < 0)
+		return (-n);
+	return (n);
+}
+
+static int	ft_int_len(int n)
+
+{
+	int	len;
 
 	len = 0;
 	if (n <= 0)
@@ -28,29 +36,27 @@ size_t	get_len(int n)
 }
 
 char	*ft_itoa(int n)
-{
-	unsigned int	nb;
-	size_t			len;
-	char			*str;
 
-	len = get_len(n);
-	str = malloc(sizeof(char) * len + 1);
-	if (!str)
+{
+	int		len;
+	int		i;
+	char	*res;
+
+	len = ft_int_len(n);
+	res = (char *)malloc(sizeof(char) * (len + 1));
+	if (!res)
 		return (NULL);
-	if (n < 0)
+	res[len] = '\0';
+	if (!n)
+		res[0] = '0';
+	else if (n < 0)
+		res[0] = '-';
+	i = len - 1;
+	while (n)
 	{
-		str[0] = '-';
-		nb = (unsigned int)-n;
+		res[i] = ft_abs(n % 10) + '0';
+		n /= 10;
+		i--;
 	}
-	else
-		nb = (unsigned int)n;
-	if (nb == 0)
-		str[0] = '0';
-	str[len--] = '\0';
-	while (nb)
-	{
-		str[len--] = nb % 10 + '0';
-		nb /= 10;
-	}
-	return (str);
+	return (res);
 }

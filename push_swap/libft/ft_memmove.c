@@ -3,29 +3,26 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cturner <cturner@42adel.org.au>            +#+  +:+       +#+        */
+/*   By: kbrice <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/11/15 18:10:22 by cturner           #+#    #+#             */
-/*   Updated: 2021/11/16 10:49:19 by cturner          ###   ########.fr       */
+/*   Created: 2022/03/01 12:18:44 by kbrice            #+#    #+#             */
+/*   Updated: 2022/03/04 10:22:41 by kbrice           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include "libft.h"
 
 void	*ft_memmove(void *dst, const void *src, size_t len)
-{
-	unsigned char	*d;
-	unsigned char	*s;
 
-	d = (unsigned char *)dst;
-	s = (unsigned char *)src;
-	if (!src && !dst)
-		return (dst);
-	if (src < dst)
+{
+	unsigned char	*temp1;
+	unsigned char	*temp2;
+
+	temp1 = dst;
+	temp2 = (unsigned char *)src;
+	if (dst < src)
+		return (ft_memcpy(dst, src, len));
+	if (dst > src)
 		while (len--)
-			d[len] = s[len];
-	else
-		while (len--)
-			*d++ = *s++;
+			temp1[len] = temp2[len];
 	return (dst);
 }

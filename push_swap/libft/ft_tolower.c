@@ -3,18 +3,18 @@
 /*                                                        :::      ::::::::   */
 /*   ft_tolower.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cturner <cturner@42adel.org.au>            +#+  +:+       +#+        */
+/*   By: kbrice <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/11/16 09:57:43 by cturner           #+#    #+#             */
-/*   Updated: 2021/11/16 09:57:46 by cturner          ###   ########.fr       */
+/*   Created: 2022/03/01 12:22:05 by kbrice            #+#    #+#             */
+/*   Updated: 2022/03/04 10:29:38 by kbrice           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include "libft.h"
 
 int	ft_tolower(int c)
+
 {
 	if (c >= 'A' && c <= 'Z')
-		c += 32;
+		return (c += 32);
 	return (c);
 }

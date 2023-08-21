@@ -3,18 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putchar_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cturner <cturner@42adel.org.au>            +#+  +:+       +#+        */
+/*   By: kbrice <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/11/16 09:19:51 by cturner           #+#    #+#             */
-/*   Updated: 2021/11/16 09:20:12 by cturner          ###   ########.fr       */
+/*   Created: 2022/02/25 10:37:30 by kbrice            #+#    #+#             */
+/*   Updated: 2022/03/04 10:23:54 by kbrice           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include "libft.h"
 
 void	ft_putchar_fd(char c, int fd)
+
 {
-	if (fd < 0)
-		return ;
 	write(fd, &c, 1);
 }

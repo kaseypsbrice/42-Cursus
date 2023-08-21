@@ -3,16 +3,20 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cturner <cturner@42adel.org.au>            +#+  +:+       +#+        */
+/*   By: kbrice <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/11/13 06:44:38 by cturner           #+#    #+#             */
-/*   Updated: 2021/11/13 06:44:43 by cturner          ###   ########.fr       */
+/*   Created: 2022/03/01 12:13:32 by kbrice            #+#    #+#             */
+/*   Updated: 2022/03/04 10:18:21 by kbrice           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include "libft.h"
 
 int	ft_isdigit(int c)
+
 {
-	return (c >= '0' && c <= '9');
+	if ((c >= '0' && c <= '9'))
+	{
+		return (1);
+	}
+	return (0);
 }

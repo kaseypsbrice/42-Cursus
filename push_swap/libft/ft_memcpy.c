@@ -3,25 +3,28 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cturner <cturner@42adel.org.au>            +#+  +:+       +#+        */
+/*   By: kbrice <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/11/15 18:07:43 by cturner           #+#    #+#             */
-/*   Updated: 2021/11/15 18:09:37 by cturner          ###   ########.fr       */
+/*   Created: 2022/03/01 12:18:03 by kbrice            #+#    #+#             */
+/*   Updated: 2022/03/04 10:21:51 by kbrice           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include "libft.h"
 
 void	*ft_memcpy(void *dst, const void *src, size_t n)
-{
-	unsigned char	*d;
-	unsigned char	*s;
 
-	d = (unsigned char *)dst;
-	s = (unsigned char *)src;
-	if (!dst && !src)
-		return (dst);
-	while (n--)
-		*d++ = *s++;
+{
+	unsigned char	*altdst;
+	unsigned char	*altsrc;
+
+	altdst = (unsigned char *)dst;
+	altsrc = (unsigned char *)src;
+	while (n > 0)
+	{
+		*altdst = *altsrc;
+		altdst++;
+		altsrc++;
+		n--;
+	}
 	return (dst);
 }

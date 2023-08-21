@@ -3,18 +3,18 @@
 /*                                                        :::      ::::::::   */
 /*   ft_toupper.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cturner <cturner@42adel.org.au>            +#+  +:+       +#+        */
+/*   By: kbrice <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/11/16 09:58:05 by cturner           #+#    #+#             */
-/*   Updated: 2021/11/16 09:58:10 by cturner          ###   ########.fr       */
+/*   Created: 2022/03/01 12:20:44 by kbrice            #+#    #+#             */
+/*   Updated: 2022/03/04 10:19:08 by kbrice           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include "libft.h"
 
 int	ft_toupper(int c)
+
 {
 	if (c >= 'a' && c <= 'z')
-		c -= 32;
+		return (c -= 32);
 	return (c);
 }

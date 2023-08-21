@@ -3,18 +3,23 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putstr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cturner <cturner@42adel.org.au>            +#+  +:+       +#+        */
+/*   By: kbrice <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/11/16 09:24:27 by cturner           #+#    #+#             */
-/*   Updated: 2021/11/16 09:24:31 by cturner          ###   ########.fr       */
+/*   Created: 2022/02/25 10:57:54 by kbrice            #+#    #+#             */
+/*   Updated: 2022/03/04 10:27:44 by kbrice           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include "libft.h"
 
 void	ft_putstr_fd(char *s, int fd)
+
 {
-	if (!s || fd < 0)
-		return ;
-	write(fd, s, ft_strlen(s));
+	int	i;
+
+	i = 0;
+	while (s[i] != '\0')
+	{
+		write (fd, &s[i], 1);
+		i++;
+	}
 }

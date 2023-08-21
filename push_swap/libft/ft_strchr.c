@@ -3,21 +3,29 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cturner <cturner@42adel.org.au>            +#+  +:+       +#+        */
+/*   By: kbrice <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/11/16 09:34:50 by cturner           #+#    #+#             */
-/*   Updated: 2021/11/16 09:35:02 by cturner          ###   ########.fr       */
+/*   Created: 2022/03/01 09:45:27 by kbrice            #+#    #+#             */
+/*   Updated: 2022/03/22 08:22:37 by kbrice           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include "libft.h"
 
 char	*ft_strchr(const char *s, int c)
+
 {
-	while (*s)
-		if (*s++ == (char)c)
-			return ((char *)s - 1);
+	char			*str;
+	unsigned char	ch;
+
+	str = (char *)s;
+	ch = (unsigned char)c;
+	while (*str != '\0')
+	{
+		if (*str == ch)
+			return (str);
+		str++;
+	}
 	if (c == '\0')
-		return ((char *)s);
+		return (str);
 	return (NULL);
 }

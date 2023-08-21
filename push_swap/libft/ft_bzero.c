@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cturner <cturner@42adel.org.au>            +#+  +:+       +#+        */
+/*   By: kbrice <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/11/13 06:40:45 by cturner           #+#    #+#             */
-/*   Updated: 2021/11/13 06:40:52 by cturner          ###   ########.fr       */
+/*   Created: 2022/03/01 12:08:32 by kbrice            #+#    #+#             */
+/*   Updated: 2022/03/17 11:31:01 by kbrice           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
 
-void	*ft_bzero(void *s, size_t n)
+void	ft_bzero(void *s, size_t n)
+
 {
-	ft_memset(s, 0, n);
-	return (s);
+	ft_memset(s, '\0', n);
 }
