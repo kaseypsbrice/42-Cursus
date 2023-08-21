@@ -4,8 +4,6 @@
   May it be a file, stdin, or even later a network connection, you will always need a way to read content line by line. 
   It is time to start working on this function, which will be essential for your future projects. 
   
-  Subject File (Version 10, 2022): [en.get_next_line.subject.pdf](https://github.com/kaseypsbrice/42-Cursus/files/8750952/en.get_next_line.subject.pdf)
-  
  <table>
   <tr>
     <th>Keywords</th>

@@ -6,8 +6,6 @@
   This project is your very first project as a student at 42. 
   You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus.
   
-  Subject file: [libft.en.subject.pdf](https://github.com/kaseypsbrice/42-Cursus/files/10099250/libft.en.subject.pdf) (ver. 15, 2022)
-
   <table>
   <tr>
     <th>Keywords</th>

@@ -3,9 +3,6 @@
   > This project is pretty straightforward, you have to recode printf. 
     You will learn what is and how to implement variadic functions. Once you validate it, you will reuse this function in your future projects. 
   
-  Subject File (Version 9.2, 2022): [ft_printf.en.subject.pdf](https://github.com/kaseypsbrice/42-Cursus/files/9241323/ft_printf.en.subject.pdf)
-
-  
  <table>
   <tr>
     <th>Keywords</th>

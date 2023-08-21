@@ -3,10 +3,6 @@
   > **This project involves sorting data on a stack, with a limited set of instructions, and the smallest number of moves.** <br>
   To make this happen, you will have to manipulate various sorting algorithms and choose the most appropriate solution(s) for optimized data sorting. 
   
-  Subject File (Version 6, 2022): [push_swap.en.subject.pdf](https://github.com/kaseypsbrice/42-Cursus/files/10484222/push_swap.en.subject.pdf)
-
-
-  
 <table>
   <tr>
     <th>Keywords</th>

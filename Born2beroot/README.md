@@ -5,8 +5,6 @@
   under specific instructions. Then, at the end of this project, you will be able to set up
   your own operating system while implementing strict rules.
   
-  Subject File (Version 1, 2022): [en.born2beroot.subject.pdf](https://github.com/kaseypsbrice/42-Cursus/files/8673971/en.born2beroot.subject.pdf)
-  
   <table>
   <tr>
     <th>Skills</th>
