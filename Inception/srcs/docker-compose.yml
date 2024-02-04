@@ -1,0 +1,67 @@
+version: "3.8"
+# Has to be in quotes otherwise it'll be interpreted as an integer
+volumes:
+
+  wordpress:
+    name: wordpress
+    driver: local
+    driver_opts:
+      device: /home/kbrice/Inception/srcs/wordpress
+      o: bind
+      type: none
+
+  mariadb:
+    name: mariadb
+    driver: local
+    driver_opts:
+      device: /home/kbrice/Inception/srcs/mariadb
+      o: bind
+      type: none
+
+networks:
+  docker-network:
+    name: docker-network
+
+services:
+
+  mariadb:
+    container_name: mariadb
+    build: ./requirements/mariadb
+    volumes:
+      - mariadb_data:/var/lib/mysql
+      # Volumes are used to store and share data between containers.
+      # The data stored in /var/lib/mysql  will remain even if the container
+      # is removed or recreated. So the database data will survive restarts
+      # and upgrades.
+    networks:
+      - docker-network
+    restart: always
+    env_file:
+      - .env
+
+  ngnix:
+    container_name: ngnix
+    build: ./requirements/ngnix
+    ports:
+      - 443:443
+      # port of the host : port of the container running this image
+    volumes:
+      - wordpress_data:/var/www/html
+    restart: always
+    networks:
+      - docker-network
+
+  wordpress:
+    container_name: wordpress
+    depends_on:
+      - mariadb
+    # Checks whether mariadb is running first before wordpress starts
+    build: ./requirements/wordpress
+    restart: always
+    env_file:
+      - .env
+    volumes:
+      - wordpress_data:/var/www/html
+    networks:
+      - docker-network
+
