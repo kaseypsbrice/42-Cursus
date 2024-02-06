@@ -2,7 +2,7 @@
 FROM alpine:3.18
 
 # Updates and installs necessary packages
-RUN apk update && apk add -y nginx openssl
+RUN apk update && apk add --no-cache nginx openssl
 
 # Creates directory to store certificates
 RUN mkdir /etc/nginx/ssl
@@ -27,6 +27,10 @@ RUN openssl req -new -x509 -days 365 -key etc/ssl/private.key \
 
 # Copy our custom configuration to nginx
 COPY ./conf/nginx.conf /etc/nginx/conf.d
+COPY tools/entrypoint.sh /
+
+# Sets the entry point for the container
+ENTRYPOINT ["/entrypoint.sh"]
 
 # Indicates what port the container will be listening on
 EXPOSE 443

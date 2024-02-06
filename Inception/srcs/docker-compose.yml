@@ -2,19 +2,19 @@ version: "3.8"
 # Has to be in quotes otherwise it'll be interpreted as an integer
 volumes:
 
-  wordpress:
+  wordpress_data:
     name: wordpress
     driver: local
     driver_opts:
-      device: /home/kbrice/Inception/srcs/wordpress
+      device: ~/data/db_data
       o: bind
       type: none
 
-  mariadb:
+  mariadb_data:
     name: mariadb
     driver: local
     driver_opts:
-      device: /home/kbrice/Inception/srcs/mariadb
+      device: ~/data/wordpress_data
       o: bind
       type: none
 
@@ -41,7 +41,7 @@ services:
 
   ngnix:
     container_name: ngnix
-    build: ./requirements/ngnix
+    build: ./requirements/nginx
     ports:
       - 443:443
       # port of the host : port of the container running this image
