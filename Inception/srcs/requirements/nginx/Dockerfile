@@ -29,6 +29,8 @@ RUN openssl req -new -x509 -days 365 -key etc/ssl/private.key \
 COPY ./conf/nginx.conf /etc/nginx/conf.d
 COPY tools/entrypoint.sh /
 
+RUN chmod +x /entrypoint.sh
+
 # Sets the entry point for the container
 ENTRYPOINT ["/entrypoint.sh"]
 

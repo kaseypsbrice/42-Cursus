@@ -2,21 +2,16 @@ version: "3.8"
 # Has to be in quotes otherwise it'll be interpreted as an integer
 volumes:
 
-  wordpress_data:
-    name: wordpress
-    driver: local
-    driver_opts:
-      device: ~/data/db_data
-      o: bind
-      type: none
-
   mariadb_data:
-    name: mariadb
-    driver: local
     driver_opts:
-      device: ~/data/wordpress_data
-      o: bind
-      type: none
+      type: "none"
+      o: "bind"
+      device: "/home/kbrice/data/mariadb_data"
+  wordpress_data:
+    driver_opts:
+      type: "none"
+      o: "bind"
+      device: "/home/kbrice/data/wordpress_data"
 
 networks:
   docker-network:

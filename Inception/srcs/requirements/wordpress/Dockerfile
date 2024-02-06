@@ -12,4 +12,4 @@ COPY tools/create-site.sh /create-site.sh
 
 RUN chmod +x /create-site.sh
 
-CMD ["bash", "./create-ste.sh"]
+CMD ["/create-site.sh"]

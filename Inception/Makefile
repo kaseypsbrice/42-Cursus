@@ -1,6 +1,7 @@
+SCRIPT=./srcs/requirements/tools/setup.sh
+
 all:
-	@docker compose -f ./srcs/docker-compose.yml up -d --build
-	# -d before --build to make the containers run in the background.
+	@$(SCRIPT) && docker compose -f ./srcs/docker-compose.yml up -d --build
 
 down:
 	@docker compose -f ./srcs/docker-compose.yml down -v
