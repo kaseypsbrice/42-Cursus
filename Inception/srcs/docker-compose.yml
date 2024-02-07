@@ -30,8 +30,6 @@ services:
       # and upgrades.
     networks:
       - docker-network
-    expose:
-      - "3306"
     restart: always
     env_file:
       - .env
@@ -40,7 +38,7 @@ services:
     container_name: ngnix
     build: ./requirements/nginx
     ports:
-      - 443:443
+      - "443:443"
       # port of the host : port of the container running this image
     volumes:
       - wordpress_data:/var/www/html
@@ -61,6 +59,4 @@ services:
       - wordpress_data:/var/www/html
     networks:
       - docker-network
-    expose:
-      - "9000"
 

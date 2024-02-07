@@ -5,5 +5,7 @@ if [ ! -d /home/kbrice/data ]; then
 	mkdir /home/kbrice/data/wordpress_data
 fi
 
-# If you don't include this file, we won't have anywhere to
-# mount the volumes for mariadb and wordpress (:
+# if [ -f "/etc/nginx/conf.d/default.conf" ]; then
+#     sudo chmod +w /etc/nginx/conf.d/default.conf
+#     sudo rm -f /etc/nginx/conf.d/default.conf
+# fi
