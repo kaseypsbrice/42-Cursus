@@ -30,6 +30,8 @@ services:
       # and upgrades.
     networks:
       - docker-network
+    expose:
+      - "3306"
     restart: always
     env_file:
       - .env
@@ -59,4 +61,6 @@ services:
       - wordpress_data:/var/www/html
     networks:
       - docker-network
+    expose:
+      - "9000"
 
