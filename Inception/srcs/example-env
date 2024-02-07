@@ -1,0 +1,10 @@
+DOMAIN_NAME=kbrice.42.fr
+# Certificates
+CERTS_=/etc/ssl/certs/nginx-selfsigned.crt
+# MYSQL SETUP
+MYSQL_HOSTNAME=mariadb
+MYSQL_DATABASE=wordpresss
+MYSQL_USER=kbrice
+MYSQL_PASSWORD=42inception
+MYSQL_ROOT=root
+MYSQL_ROOT_PASSWORD=born2beroot
