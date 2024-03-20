@@ -18,9 +18,9 @@ Projects from the 42 Cursus to date. Studies commenced **21 February 2022**.
 | [cub3d](https://github.com/kaseypsbrice/cub3d) | 4 | This project is inspired by the world-famous eponymous 90's game, which was the first FPS ever. It will enable you to explore ray-casting. Your goal will be to make a dynamic view inside a maze, in which you'll have to find your way. | Complete |
 | NetPractice | 4 | NetPractice is a general practical exercise to let you discover networking. | Complete |
 | [CPP 05-09](https://github.com/kaseypsbrice/42-Cursus/tree/main/CPP) | 5 | This module is designed to help you understand the containers in CPP. | Complete |
-| [Inception](https://github.com/kaseypsbrice/42-Cursus/tree/main/Inception) | 5 | This project aims to broaden your knowledge of system administration by using Docker. You will virtualize several Docker images, creating them in your new personal virtual machine. | WIP |
-| [ft_irc](https://github.com/kaseypsbrice/ft_irc) | 5 | Create your own IRC server in C++, fully compatible with an official client. | WIP |
-| [ft_transcendence](https://github.com/kaseypsbrice/ft_transcendence) | 6 | This project is about creating a website for the mighty Pong contest! | WIP |
+| [Inception](https://github.com/kaseypsbrice/42-Cursus/tree/main/Inception) | 5 | This project aims to broaden your knowledge of system administration by using Docker. You will virtualize several Docker images, creating them in your new personal virtual machine. | Complete |
+| [ft_irc](https://github.com/kaseypsbrice/ft_irc) | 5 | Create your own IRC server in C++, fully compatible with an official client. | Complete |
+| [ft_transcendence](https://github.com/kaseypsbrice/ft_transcendence) | 6 | This project is about creating a website for the mighty Pong contest! | Complete |
 
 <details><summary><b>Skills</b></summary>
   
