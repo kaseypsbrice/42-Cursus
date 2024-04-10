@@ -4,3 +4,12 @@
 [submodule "cub3d"]
 	path = cub3d
 	url = https://github.com/kaseypsbrice/cub3d
+[submodule "ft_transcendence"]
+	path = ft_transcendence
+	url = https://github.com/kaseypsbrice/ft_transcendence.git
+[submodule "Inception"]
+	path = Inception
+	url = https://github.com/kaseypsbrice/Inception.git
+[submodule "ft_irc"]
+	path = ft_irc
+	url = https://github.com/kaseypsbrice/ft_irc.git
