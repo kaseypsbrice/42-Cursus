@@ -30,6 +30,8 @@ Projects from the 42 Cursus to date. Studies commenced **21 February 2022**.
 * Network & system administration 
 * Imperative programming 
 * Graphics 
-* Object-oriented programming 
+* Object-oriented programming
+* Web
+* Group & interpersonal
 
 </details>
